@@ -48,6 +48,6 @@ The Election Audit is a deep dive look into the election results by county in Co
 
 ## Election-Audit Summary
 This Election Audit code can be used for future elections to tally up the votes in a quick and error free way. The code can be used in different states and different election, just as long the format of the data file stays the same. 
-For future state, I have a few suggestions on how the code can be modified and used for other elections, see below: 
+For the future, I have a few suggestions on how the code can be modified and used for other elections, see below: 
 1. Deep Dive in the voting tally for each candidate by each county. This would be looking at for each county, how many did each candidates receive and their percent of total contribution. The way you can do this is by including nested if statements that look into each county and tallies up votes by candidates. 
 2. If in the future, the datafile can include the source of the votes (paper ballots, electronic ballots, etc.), then you can modify the code to tally up the votes by voting source. This would be done similarly to the approach I used to tally up the votes by county and candidate - and if statement to tally up the votes by voting source and a for-loop to get percent of total as well as get the voting source with the largest participation. Having information can help inform you what trend of voting source the population is going towards.
